@@ -1,0 +1,126 @@
+/* CSS за дизайна на страниците */
+
+/* Заглавие на сайта */
+#logo {
+	font-size: 2rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 1rem 0;
+  }
+  
+  /* Навигация */
+  nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ddd;
+	padding: 1rem;
+  }
+  
+  nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+  }
+  
+  nav li {
+	margin-right: 1rem;
+  }
+  
+  nav a {
+	color: #333;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bold;
+	transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+	color: #000;
+  }
+  
+  /* Контейнер на страницата */
+  .container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1rem;
+  }
+  
+  /* Шрифтове */
+  body {
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+  }
+  
+  h1, h2, h3 {
+	font-weight: bold;
+  }
+  
+  h1 {
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+  }
+  
+  h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  /* Таблица на продуктите */
+  table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 1rem;
+  }
+  
+  th, td {
+	border: 1px solid #ddd;
+	padding: 0.5rem;
+	text-align: center;
+  }
+  
+  th {
+	background-color: #f5f5f5;
+	font-weight: bold;
+  }
+  
+  /* Бутон за добавяне в количката */
+  button.add-to-cart {
+	display: block;
+	margin: 0 auto;
+	padding: 0.5rem 1rem;
+	background-color: #008CBA;
+	color: #fff;
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+  }
+  
+  button.add-to-cart:hover {
+	background-color: #00587a;
+  }
+  
+  /* Футър на страницата */
+  footer {
+	text-align: center;
+	background-color: #ddd;
+	padding: 1rem;
+  }
+  
+  footer p {
+	margin: 0;
+	font-size: 0.8rem;
+  }
+  
