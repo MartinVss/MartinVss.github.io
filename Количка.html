@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Количка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Начало</a></li>
+        <li><a href="#">Продукти</a></li>
+        <li><a href="#">За нас</a></li>
+        <li><a href="#">Контакти</a></li>
+        <li><a href="#">Количка (3)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Количка</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Продукт</th>
+          <th>Количество</th>
+          <th>Цена</th>
+          <th>Общо</th>
+          <th>Действия</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Продукт 1</td>
+          <td><input type="number" value="1" min="1"></td>
+          <td>10.00 лв.</td>
+          <td>10.00 лв.</td>
+          <td><button>Премахни</button></td>
+        </tr>
+        <tr>
+          <td>Продукт 2</td>
+          <td><input type="number" value="2" min="1"></td>
+          <td>20.00 лв.</td>
+          <td>40.00 лв.</td>
+          <td><button>Премахни</button></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"></td>
+          <td>Общо: 50.00 лв.</td>
+          <td><button>Изпразни количката</button></td>
+        </tr>
+      </tfoot>
+    </table>
+    <a href="#">Продължи пазаруването</a>
+    <a href="#">Плащане</a>
+  </main>
+
+  <footer>
+    <p>© 2023 Електронен магазин
+  </footer>
+
+</body>
+</html>
