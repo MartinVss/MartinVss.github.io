@@ -1,0 +1,170 @@
+/* основни стилове за всички страници */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  nav li {
+	float: left;
+  }
+  
+  nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  nav li a:hover {
+	background-color: #111;
+  }
+  
+  .container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+  }
+  
+  /* стилове за началната страница */
+  
+  .home-intro {
+	text-align: center;
+	margin-top: 100px;
+  }
+  
+  .home-intro h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+  }
+  
+  .home-intro p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+  }
+  
+  .home-products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .product-card {
+	width: 30%;
+	margin-bottom: 20px;
+  }
+  
+  .product-card img {
+	width: 100%;
+  }
+  
+  .product-card h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .product-card p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+  }
+  
+  /* стилове за страницата "За нас" */
+  
+  .about-intro {
+	text-align: center;
+	margin-top: 100px;
+  }
+  
+  .about-intro h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+  }
+  
+  .about-intro p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+  }
+  
+  .about-team {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .team-member {
+	width: 30%;
+	margin-bottom: 20px;
+  }
+  
+  .team-member img {
+	width: 100%;
+  }
+  
+  .team-member h3 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .team-member p {
+	font-size: 1rem;
+	margin-bottom: 10px;
+  }
+  
+  /* стилове за страницата "Детайли на продукт" */
+  
+  .product-details-intro {
+	text-align: center;
+	margin-top: 100px;
+  }
+  
+  .product-details-intro h1 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+  }
+  
+  .product-details-intro p {
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+  }
+  
+  .product-details {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .product-details-img {
+	width: 40%;
+  }
+  
+  .product-details-img img {
+	width: 100%;
+  }
+  
+  .product-details-info {
+	width: 50%;
+  }
+  
+  .product-details-info h3 {
+	font-size: 2rem;
+	margin-bottom: 20px;
+  }
+  
+  .product-details-info p {
+	font-size:
