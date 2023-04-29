@@ -1,0 +1,124 @@
+/* Заглавие */
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #ff6600;
+  text-shadow: 2px 2px #fff;
+}
+
+/* Навигационно меню */
+nav {
+  background-color: #ff6600;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+  font-family: 'Comic Sans MS', sans-serif;
+  text-shadow: 1px 1px #000;
+}
+
+nav a:hover {
+  color: #000;
+  text-shadow: 1px 1px #fff;
+}
+
+/* Страница "За нас" */
+#about-us {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#about-us h2 {
+  font-size: 30px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #ff6600;
+  text-shadow: 1px 1px #fff;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 20px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Страница "Всички продукти" */
+#all-products {
+  margin-top: 50px;
+}
+
+#all-products h2 {
+  font-size: 30px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #ff6600;
+  text-shadow: 1px 1px #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#all-products ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+#all-products li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#all-products img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#all-products h3 {
+  font-size: 24px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+#all-products p {
+  font-size: 20px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Страница "Детайли на продукт" */
+#product-details {
+  margin-top: 50px;
+}
+
+#product-details h2 {
+  font-size: 30px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #ff6600;
+  text-shadow: 1px 1px #fff;
+  margin-bottom: 20px;
+}
+
+#product-details img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom:1em; }
