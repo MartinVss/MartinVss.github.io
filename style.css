@@ -1,0 +1,277 @@
+/* Заглавие */
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ff6600;
+  text-shadow: 2px 2px #fff;
+}
+
+/* Навигационно меню */
+nav {
+  background-color: #ff6600;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px #000;
+}
+
+nav a:hover {
+  color: #000;
+  text-shadow: 1px 1px #fff;
+}
+/* Страница "Начало" */
+nav {
+  background-color: #ff6600;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 20px;
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px #000;
+}
+
+nav a:hover {
+  color: #000;
+  text-shadow: 1px 1px #fff;
+}
+
+/* Страница "За нас" */
+#about-us {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#about-us h2 {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #ff6600;
+  text-shadow: 1px 1px #fff;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Страница "Всички продукти" */
+#all-products {
+  margin-top: 20px;
+}
+
+#all-products h2 {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #ff6600;
+  text-shadow: 1px 1px #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#all-products ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#all-products li {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+#all-products img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#all-products h3 {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#all-products p {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Страница "Детайли на продукт" */
+.product-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-details h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-details img {
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.product-details p {
+  margin: 10px 0;
+}
+
+.product-details form {
+  margin-top: 20px;
+}
+
+.product-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.product-details input[type="number"] {
+  width: 50px;
+  text-align: center;
+}
+
+.product-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.product-details button:hover {
+  background-color: #0056b3;
+}
+/*Страница "Начини на доставка"*/
+.container {
+  text-align: center;
+}
+.card {
+  text-align: center;
+}
+.card-img-top {
+  width: 100%;
+}
+.card-body {
+  padding: 1.25rem;
+}
+.form-check-label {
+  margin-bottom: 0.5rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+
+
+  /* страница "Количка" */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f8f9fa;
+}
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+}
+tfoot td {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f8f9fa;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+}
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+   table 
+   {
+    font-size: 14px;
+  }
+}

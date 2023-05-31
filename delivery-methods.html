@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Начини на доставка</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Детски свят</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <li><a href="index.html">Начало</a></li>
+                    <li><a href="products.html">Продукти</a></li>
+                    <li><a href="about.html">За нас</a></li>
+                    <li><a href="product-details.html">Детайли на продукт</a></li>
+                    <li><a href="payment-methods.html">Начини на плащане</a></li>
+                    <li><a href="delivery-methods.html">Начини на доставка</a></li>
+                    <li><a href="cart.html">Количка</a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Начини на доставка</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-4">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="card mb-4">
+                <img class="card-img-top" src="https://images.pexels.com/photos/5025669/pexels-photo-5025669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=650&dpr=1" alt="Начин на доставка" />
+                <div class="card-body">
+                    <p class="card-text">Изберете начин на доставка:</p>
+                    <form>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="deliveryMethod" id="standardDelivery" value="standard">
+                            <label class="form-check-label" for="standardDelivery">
+                      Стандартна доставка (2-3 работни дни)
+                    </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="deliveryMethod" id="expressDelivery" value="express">
+                            <label class="form-check-label" for="expressDelivery">
+                      Експресна доставка (в рамките на 24 часа)
+                    </label>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="address">Адрес за доставка</label>
+                            <input type="text" class="form-control" id="address" placeholder="Въведете адрес за доставка">
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Телефон за връзка</label>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="Въведете телефон за връзка">
+                        </div>
+                    </form>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js" integrity="sha384-Ia0mNzyLrRnzOV1hZ1a2mV6ypD8n7R0LHfg3+5teX/yu6bsFsJGx0f6VLzevzk4X" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUzFVxssgS7xOsW5t/j0p4j7I+o78LG5E5w2kE2328Dl6" crossorigin="anonymous"></script>
+</body>
+</html>
